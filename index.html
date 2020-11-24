@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- VK Widget -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link rel="stylesheet" href="style/sttyle.css">
+
+
+    <title>SAWONI studio</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <div class="head container">
+            <nav class="nav row">
+
+                <div class="logo ">
+                    <a href="#" class=""><img class="" src="style/ph/lil_logo_no_bg.png" alt=""></a>
+                </div>
+
+
+                <ul class="nav_info">
+                    <li class="li_info"><a href="" data-scroll='#main'>О студии</a></li>
+                    <li class="li_info"><a href="" data-scroll='#about'>Услуги и цены</a></li>
+                    <li class="li_info"><a href="" data-scroll='#main'>Отзывы</a></li>
+                    <li class="li_info"><a href="" data-scroll='#main'>Контакты</a></li>
+
+                </ul>
+
+            </nav>
+            <button class="nav-toggle " id="nav_toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <!-- 1a2e37 -->
+    <section class="main" id="main">
+        <div class="main-blur">
+
+            <div class="cont-main container-fluid">
+
+                <div class="row justify-content-center text-cont">
+                    <h1 class="col-12">Sawoni Studio</h1>
+                    <h2 class="col-12">Студия звукозаписи Килина Даниила</h2>
+                    <button id="myBtn" class="buttn about-btn">Отправить заявку</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content container">
+            <div class="row"></div>
+            <span class="close">&times;</span>
+            <hr>
+
+            <h1 style="font-size: 32px; text-align: left; color: #083069;">Как нам с Вами связаться?</h1>
+            <h2 style="font-size: 14px;">Укажите номер телефона, email или любой удобный вам способ связи. Или свяжитесь
+                с нами</h2>
+            <h2 style="font-size: 14px;">+79787162190 / Viber </h2>
+            <hr>
+            <form>
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Sawoni Web">
+                <input type="hidden" name="admin_email" value="shaggy.za.5727@gmail.com">
+                <input type="hidden" name="form_subject" value="Form">
+                <!-- END Hidden Required Fields -->
+
+
+                <input type="text" name="Name" placeholder="Имя" id="email" class="col-xl-5 frm" required><br><br>
+                <input type="text" name="Phone" class="col-xl-5 frm" placeholder="Введите номер/e-mail"><br><br>
+
+                <button id="sendMail" class="btn btn-modal btn-outline-dark btn-sm ">Отправить заявку</button>
+
+            </form>
+
+
+        </div>
+
+    </div>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container-fluid about about-container ">
+            <div class="row about-cont justify-content-center">
+                <h1 class="col-12 col-xl-12">Домашняя студия звукозаписи в Москве <br><br></h1>
+
+                <h2 class="col-12 col-xl-12 ">
+                    Наша студия оказывает широкий спектр услуг, начиная от обычной записи, заканчивая
+                    написанием и
+                    редакцией текста.
+                    <br><br><br>
+                    Sawoni Studio - это целая команда, работающая вместе, способная оказать любому исполнителю полный
+                    пакет услуг, начиная с идеи, заканчивая релизом на платформах и дальнейшим продвижением!
+                </h2>
+
+                <div id="carouselExampleControls" class="carousel slide  " data-ride="carousel">
+
+                    <div class="carousel-inner  ">
+
+                        <div class="carousel-item active ">
+                            <img src="style/ph/about_slider/1.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="style/ph/about_slider/2.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="style/ph/about_slider/3.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="style/ph/about_slider/4.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="style/ph/about_slider/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="style/ph/about_slider/6.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="style/ph/about_slider/7.jpg" class="d-block w-100" alt="...">
+                        </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+                <button class="buttn about-btn">оставить заявку</button>
+
+
+
+            </div>
+    </section>
+
+    <!-- EXAMPLES -->
+
+
+    <section class="examples">
+
+        <div class="container">
+            <h1>Примеры работ</h1>
+            <div class="row">
+                <iframe class="col-12 col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe class="col-12  col-md-6" width="100%" height="150" scrolling="no" frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/800128420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+            </div>
+    </section>
+
+
+
+    <!-- FEEDBACK -->
+
+
+    <section class="feedback">
+
+        <div class="container">
+            <h1>Отзывы</h1>
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item row justify-content-center active">
+                            <div class="fb-face col col-sm-4"></div>
+                            <h1>Отличнейший звукарь, работали, работает и будем работать дальше совместно 😎🤙</h1>
+                        </div>
+
+                        <div class="carousel-item row  justify-content-center">
+                            <div class="fb-face col "></div>
+                            <h1>Отличнейший звукарь, работали, работает и будем работать дальше совместно 😎🤙</h1>
+                        </div>
+
+                        <div class="carousel-item row justify-content-center">
+                            <div class="fb-face  col "></div>
+                            <h1>Отличнейший звукарь, работали, работает и будем работать дальше совместно 😎🤙</h1>
+                        </div>
+
+                        <div class="carousel-item row justify-content-center">
+                            <div class="fb-face  col "></div>
+                            <h1>Отличнейший звукарь, работали, работает и будем работать дальше совместно 😎🤙</h1>
+                        </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COMAND -->
+    <section class="comand">
+        <div class="about-comand container">
+
+            <div class=" row justify-content-around">
+
+                <h1 style="text-align: center;" class="col-12">Наша команда</h1>
+
+                <div class="mate-box mate3-box col-8 col-md-3 justify-content-center row ">
+                    <div class="mate3-ph mate-ph  col-9"></div>
+                    <div class="mate3-text mate-text" col-12><a href="https://vk.com/sawoni">Данил Килин </a> <br> CEO
+                    </div>
+
+                </div>
+
+
+                <div class="mate-box mate1-box col-8 col-md-3 justify-content-center row ">
+                    <div class="mate1-ph mate-ph  col-9"></div>
+                    <div class="mate1-text mate-text col-12"><a href="https://vk.com/kuraptor">Марья Курочкина</a></div>
+                    <div class="mate1-text-2 mate-text-2 col-12">Дизайнер/фотограф</div>
+                </div>
+
+
+                <div class="mate-box mate2-box col-8 col-md-3 justify-content-center row ">
+                    <div class="mate2-ph mate-ph  col-9"></div>
+                    <div class="mate2-text mate-text col-12">Антон <br><a href="https://vk.com/sapphireboi">
+                            $apphireboi</a> <br>Титов </div>
+                    <div class="mate2-text-2 mate-text-2 col-12">Битмейкер</div>
+                </div>
+
+
+                <div class="mate-box mate4-box col-8 col-md-3 justify-content-center row ">
+                    <div class="mate4-ph mate-ph  col-9"></div>
+                    <div class="mate4-text mate-text col-12"><a href="https://vk.com/sselemoh">Филипп Тарасов</a></div>
+                    <div class="mate4-text-2 mate-text-2 col-12">Дизайнер/фотограф</div>
+                </div>
+
+                <div class="mate-box mate5-box col-8 col-md-3 justify-content-center row ">
+                    <div class="mate5-ph mate-ph  col-9"></div>
+                    <div class="mate5-text mate-text col-12"><a href="https://vk.com/ann_druzba">Аня Дружбинская</a>
+                    </div>
+                    <div class="mate5-text-2 mate-text-2 col-12">Гострайтер/редактор текста</div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- DEVICES -->
+
+    <section class="devices">
+        <div class="devices-container container-fluid">
+
+            <div class="device-box row justify-content-around">
+
+                <h1 class="col-12 ">Оборудоваение на студии</h1>
+
+                <div class="device1 device col-xl col-sm-2 col-6">
+
+                    <div class="device-ph device-ph1"></div>
+                    <div class="device-tag">Микрофоны:</div>
+                    <div class="device-info">
+                        <br>SE Electronics Z5600 IIa (ламповый)
+
+                        <br>Shure SM57
+
+                        <br>Shure 55 SH Series II
+                    </div>
+
+                </div>
+
+                <div class="device2 device col-xl col-sm-2 col-6">
+
+                    <div class="device-ph device-ph2"></div>
+                    <div class="device-tag">Мониторинг/наушники:</div>
+
+                    <div class="device-info">
+                        <br>Yamaha HS8
+
+                        <br>Sennheiser HD 558
+
+                        <br>Sony MDR-7506 (оригинал)
+
+                    </div>
+
+                </div>
+
+                <div class="device3 device col-xl col-sm-2 col-6">
+
+                    <div class="device-ph device-ph3"></div>
+                    <div class="device-tag">Софт (весь лицензионный):</div>
+                    <div class="device-info">
+                        <br> Logic Pro (основная программа)
+
+                        <br> Reaper
+
+                        <br> Pro Tools
+                    </div>
+
+                </div>
+
+                <div class="device4 device col-xl col-sm-2 col-6">
+
+                    <div class="device-ph device-ph4"></div>
+                    <div class="device-tag">Прочее:</div>
+                    <div class="device-info">
+                        <br>Поливокс
+
+                        <br>Юность-21
+
+                        <br>Эско-100
+
+                        <br>Акустическая гитара</div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT  -->
+    <section class="contact">
+        <div class="container contact-cont">
+            <h1 class="col-auto ">Контакты</h1>
+            <div class="contact-box row">
+
+
+                <div class="contact-number col-sm-6">
+
+                    <h2>Свяжитесь с нами:</h2><br>
+
+                    <h3>
+                        +7 (905) 510-10-20
+                        <br><br>
+                        sawoniStudio@gmail.com
+                    </h3><br>
+
+                    <h6>Мы в соц сетях:</h6>
+
+                    <div class="icon-box col-12 row">
+                        <a href="https://vk.com/sawonistudio" class="vk"><i class="fab fa-vk col-4  fa-lg"></i></a>
+                        <a href="#" class="ig">
+                            <i class="fab fa-instagram col-4 fa-lg"></i></a>
+                        <a href="#" class="mail"><i class="far fa-envelope col-4 fa-lg"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="contact-map col-sm-12 col-md-6 row">
+
+                    <div id="map" class="col-sm-12" style="width:100%; height:350px"></div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- SERCVICES -->
+
+    <section class="services">
+
+        <div class="container">
+
+            <h1>Услуги</h1>
+
+            <div class="row serv-box1 justify-content-between ">
+
+
+
+                <div class="mixing-box serv-boxes col-xs-4  col-md-5 ">
+                    <div class="serv-blur ">
+                        <h1 class="mixing-text serv-text">Сведение</h1>
+                        <a href="https://vk.com/market-189478692?w=product-189478692_4245628%2Fquery"><button
+                                type="button" class="btn btn-outline-light btn-serv">Подробнее</button></a>
+                    </div>
+                </div>
+
+
+
+                <div class="text-box serv-boxes col-xs-4  col-md-5 ">
+                    <div class="serv-blur ">
+                        <h1 class="text-text serv-text"> Написание текстов</h1>
+                        <a href="https://vk.com/market-189478692?w=product-189478692_4245507%2Fquery"><button
+                                type="button" class="btn btn-outline-light btn-serv">Подробнее</button></a>
+                    </div>
+                </div>
+
+
+                <div class="w-100"></div>
+
+                <div class="recNmix-box serv-boxes col-xs-4  col-md-5 ">
+                    <div class="serv-blur ">
+                        <h1 class="recNmix-text serv-text">Запись + сведение</h1>
+                        <a href="https://vk.com/market-189478692?w=product-189478692_4245631%2Fquery"><button
+                                type="button" class="btn btn-outline-light btn-serv">Подробнее</button></a>
+                    </div>
+                </div>
+
+                <div class="design-box serv-boxes col-xs-4  col-md-5 ">
+                    <div class="serv-blur ">
+                        <h1 class="design-text serv-text">Дизайн обложки</h1>
+                        <a href="https://vk.com/market-189478692?w=product-189478692_4245518%2Fquery"><button
+                                type="button" class="btn btn-outline-light btn-serv ">Подробнее</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <a href="https://vk.com/sawonistudio" class="vk"><i class="fab fa-vk col-4  fa-lg"></i></a>
+                <a href="#" class="ig">
+                    <i class="fab fa-instagram col-4 fa-lg"></i></a>
+                <a href="#" class="mail"><i class="far fa-envelope col-4 fa-lg"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- THINGS -->
+    <div id="vk_community_messages"> </div>
+
+
+    <script type="text/javascript">
+        VK.Widgets.CommunityMessages("vk_community_messages", 194725297, {
+            expanded: "0",
+            tooltipButtonText: "Есть вопрос?"
+        });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+
+    <script src="https://use.fontawesome.com/2697cffe5b.js"></script>
+    <script src="https://kit.fontawesome.com/c71223184d.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168"></script>
+    <script src="script.js"></script>
+
+    <!-- boot -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+
+    <!-- MAP -->
+    <!-- AIzaSyCjDjBlemOQaH9ytdQnWgM8YtaoFVrHmcI
+    55.825103, 37.528253 
+    -->
+
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 55.825103,
+                lng: 37.528253
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 17,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjDjBlemOQaH9ytdQnWgM8YtaoFVrHmcI&callback=initMap">
+    </script>
+
+</body>
+
+</html>
